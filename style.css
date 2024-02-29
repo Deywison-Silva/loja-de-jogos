@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.carousel-item img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: #e1a941;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #418ce1;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-variedades .nav-link.active:hover{
+    color: #fff;
+} 
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-loja, #variedades{
+    background-color: #cea59d;
+} 
+
+.text-colored{
+    color: #e1415c;
+}
+
+.nav-variedades .nav-link.active,
+#fale-conosco button{
+    background-color: #e14141;
+    color: #fff;
+}
+
+.nav-variedades .nav-link:hover{
+    color: #4174e1;
+}
+
+.social-links li{
+     list-style: none;
+     display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
